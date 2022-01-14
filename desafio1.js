@@ -1,6 +1,6 @@
-const numberDivisibleBy3or5 = (numberByAnalise) => {
+const numberDivisibleBy3or5 = (numberForAnalysis) => {
   const numbersValid = [];
-  for (let index = 1; index < numberByAnalise; index+=1 ) {
+  for (let index = 1; index < numberForAnalysis; index+=1 ) {
     const validations = [
       index % 3 === 0,
       index % 5 === 0,

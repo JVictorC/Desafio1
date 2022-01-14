@@ -1,6 +1,6 @@
-int numberDivisibleBy3or5(int numberByAnalise) {
+int numberDivisibleBy3or5(int numberForAnalysis) {
   final List<int> numbersValid = [];
-  for (int index = 0; index < numberByAnalise; index++) {
+  for (int index = 0; index < numberForAnalysis; index++) {
     final validations = [
       index % 3 == 0,
       index % 5 == 0,
